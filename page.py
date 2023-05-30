@@ -16,8 +16,8 @@ lc = ll("https://assets1.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json")
 # Header
 with st.container():
     st.subheader("Hola soy Ricardo :wave:")
-    st.title("Un ingeniero en TIC's")
-    st.write("Me gusta mucho la tecnología")
+    st.title("Soy ingeniero en TIC's")
+    st.write("Me gusta mucho la tecnología, soy una persona dedicada y constante")
 
 with st.container():
     st.write("----")
@@ -27,9 +27,8 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Este es una lista
-            - Activiad uno
-            - Activiad dos
+            - Tengo logica de programacion 
+            - Estoy trabajando con IA (TensorFlow)
             """)
     with right_column:
         st_lottie(lc, height=300, key="coding")
