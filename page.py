@@ -17,7 +17,7 @@ lc = ll("https://assets1.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json")
 with st.container():
     st.subheader("Hola soy Ricardo :wave:")
     st.title("Soy ingeniero en TIC's")
-    st.write("Me gusta mucho la tecnología, soy una persona dedicada y constante")
+    st.write("Me gusta mucho la tecnología, soy una persona dedicada y constante.")
 
 with st.container():
     st.write("----")
@@ -27,8 +27,10 @@ with st.container():
         st.write("##")
         st.write(
             """
-            - Tengo logica de programacion 
-            - Estoy trabajando con IA (TensorFlow)
+            - Tengo logica de programacion.
+            - Estoy trabajando con IA (TensorFlow).
+            - Aprendi a utilizar streamlit.
+            - Desplegar Apps en Streamlit Cloud.
             """)
     with right_column:
         st_lottie(lc, height=300, key="coding")
