@@ -16,7 +16,7 @@ lc = ll("https://assets1.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json")
 # Header
 with st.container():
     st.subheader("Hola soy Ricardo :wave:")
-    st.title("Soy ingeniero en TIC's")
+    st.title("Soy Ingeniero en TIC's")
     st.write("Me gusta mucho la tecnología, soy una persona dedicada y constante.")
 
 with st.container():
