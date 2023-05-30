@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie 
+from streamlit-lottie import st_lottie 
 from moviepy.editor import * 
 import tempfile
 st.set_page_config(page_title="Ricardo Gomez", page_icon=":tada:", layout="wide")
