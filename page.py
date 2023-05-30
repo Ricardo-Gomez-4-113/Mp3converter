@@ -37,7 +37,7 @@ with st.container():
 with st.container():
     st.title("Convertidor mp4 a mp3")
 with st.container():
-    uploaded_files = st.file_uploader("Seleccione el video a convertir", accept_multiple_files=False)
+    uploaded_files = st.file_uploader("Seleccione el video a convertir", accept_multiple_files=False, type="mp4")
     if uploaded_files is not None:
         # Crear un archivo temporal
         temp_file = tempfile.NamedTemporaryFile(delete=False)
