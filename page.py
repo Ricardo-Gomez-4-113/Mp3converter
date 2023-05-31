@@ -59,4 +59,6 @@ with st.container():
                     file_name=D,
                     mime="mp3"
                     )
+            from os import remove
+            remove(D)        
 
