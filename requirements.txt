@@ -2,4 +2,3 @@ requests
 streamlit
 streamlit-lottie
 moviepy
-os
